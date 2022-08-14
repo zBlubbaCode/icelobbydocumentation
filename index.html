@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>zBlubba | IceLobby Documentation</title>
     <link rel="stylesheet" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet'>
 </head>
 
 <body>
@@ -31,8 +32,8 @@
             Languages Supported: ∞ (custom messages)
         </div>
 
-        <div class="margin_left danger_border danger_container">
-            <img src="img/warning.png" class="danger_image">
+        <div class="danger_border danger_container">
+            <img src="img/warning.png" id="warning_sign" class="danger_image">
             If you are using this plugin in the versions from 1.8 - 1.12, you have to change the materials in the
             items.yml. <br>
             Here is an example config, how it should look like: (link)
@@ -46,17 +47,19 @@
             ...<br>
         </div>
 
-        <img src="img/titles/commands+permissions.png" class="title_image">
+        <span class="titles">
+            COMMANDS x PERMISSIONS
+        </span>
 
         <div class="videotext">
             <div class="video">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/qJe3cdM7f1c?controls=0"
+                <iframe width="200%" height="200%" src="https://www.youtube.com/embed/qJe3cdM7f1c?controls=0"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
             </div>
 
-            <div class="margin_left">
+            <div class="margin_left text_video">
                 <hr2 class="side_title">
                     Permissions and Commands
                 </hr2>
@@ -77,9 +80,13 @@
             </div>
         </div>
 
-        <img src="img/titles/screenshots.png" class="title_image less_margin_top">
+         <span class="titles margin_top">
+            SCREENSHOTS
+         </span>
         <img src="img/icelobby-screenshots.png" class="icelobby_screenshots">
-        <img src="img/titles/configs.png" class="title_image image_smaller">
+        <span class="titles">
+            CONFIGS
+        </span>
 
         <div class="config_text">
             There are 3 configs which can be modified for the best user experience. <br>

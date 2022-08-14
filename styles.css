@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
 
 * {
     box-sizing: border-box;
@@ -101,23 +102,26 @@ a:hover {
     text-decoration: underline;
     color:rgb(167, 230, 232)
 }
-
 .danger_border {
     border-color: white;
-    border-width: 1px;
-    border-style: solid;
-    margin-right: 30%;
-    margin-left: 5%;
+    border-width: 1%;
+    border-style:outset;
 }
 .danger_container {
     padding: 10px;
     text-align: center;
-    margin-left: 30%;
-    margin-bottom: 5%;
     display: flex;
+    transform: scale(0.5, 1);
+}
+#warning_sign {
+    overflow: scroll;
 }
 .danger_image {
-    height: 70px;
+    height: 70%;
+    width: auto;
+    min-height: 40px;
+    min-width: 60px;
+    max-height: 120px;
 }
 .mixed_stuff {
     margin-bottom: 5%;
@@ -137,9 +141,8 @@ a:hover {
     height: 200px;
     margin-top: -2%;
 }
-
-.less_margin_top {
-    margin-top: -10%;
+.text_video {
+    margin-left: 22%;
 }
 .icelobby_screenshots {
     height: 900px;
@@ -168,5 +171,20 @@ a:hover {
 .button_container {
     margin-left:25%;
     margin-top: 2%;
-
+}
+.margin_top {
+    margin-top: 3%;
+}
+.titles {
+    display: block;
+    margin-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-image:linear-gradient(rgb(147,0,255),rgb(147,0,255),rgb(40,0,255),rgb(30,0,255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 350%;
+    font-weight: 700;
+    font-family: 'Orbitron';
 }
