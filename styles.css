@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #24252A;
+}
+
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: rgb(31, 31, 31);
+}
+
+.logo {
+    cursor: pointer;
+    height: 70px;
+}
+
+.nav__links {
+    list-style-type: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition: all 0.3 ease 0s;
+}
+.nav__links li a:hover {
+    color: #0088a9
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3 ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+.main_container {
+    background-color: rgb(19, 19, 19);
+    margin-top: 1%;
+    margin-left: 7%;
+    margin-right: 7%;
+    color:white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.page_title {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 10%;
+    padding: 4%;
+}
+
+.side_title {
+    font-size: 30px;
+    text-decoration: underline;
+}
+.margin_left {
+    margin-left: 5%;
+}
+.main_information {
+    text-align: center;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-top: -10%;
+}
+a {
+    font-size: 20px;
+    font-weight: 500;
+}
+a:hover {
+    text-decoration: underline;
+    color:rgb(167, 230, 232)
+}
+
+.danger_border {
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    margin-right: 30%;
+    margin-left: 5%;
+}
+.danger_container {
+    padding: 10px;
+    text-align: center;
+    margin-left: 30%;
+    margin-bottom: 5%;
+    display: flex;
+}
+.danger_image {
+    height: 70px;
+}
+.mixed_stuff {
+    margin-bottom: 5%;
+    text-align: center;
+}
+.video {
+    margin-left: 5%;
+    margin-bottom: 10%;
+}
+.videotext {
+    display: flex;
+}
+.title_image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    margin-top: -2%;
+}
+
+.less_margin_top {
+    margin-top: -10%;
+}
+.icelobby_screenshots {
+    height: 900px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -3%;
+}
+.terms_of_service {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+    height: 250px;
+}
+.image_smaller {
+    height: 150px
+}
+.config_text {
+    text-align: center;
+}
+.download_button {
+    margin-left: 7%;
+    display: inline-block;
+}
+.button_container {
+    margin-left:25%;
+    margin-top: 2%;
+
+}
