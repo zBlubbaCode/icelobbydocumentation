@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: #24252A;
+    background-color: rgb(48,50,50);
 }
 
 li, a, button {
@@ -19,17 +19,35 @@ li, a, button {
     text-decoration: none;
 }
 
-header {
+.navbar-container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 30px 10%;
-    background-color: rgb(31, 31, 31);
+    padding: 10px 15px;
+    background-color: rgb(36,37,37);
+    margin-top: -1%;
+}
+
+.links_container {
+    margin-top: 2.5%;
+    margin-right: 15%;
+    width: 500px;
+}
+
+.header_links {
+    color: rgb(162,156,145);
+    font-size:16px;
+    margin-left: 3%;
 }
 
 .logo {
+    margin-left: 100%;
+    margin-top: 10%;
     cursor: pointer;
-    height: 70px;
+    height: 70%;
+    width: auto;
+    min-height: 40px;
+    min-width: 60px;
+    max-height: 50px;
 }
 
 .nav__links {
@@ -62,16 +80,17 @@ button:hover {
 }
 
 .main_container {
-    background-color: rgb(19, 19, 19);
-    margin-top: 1%;
-    margin-left: 7%;
-    margin-right: 7%;
+    background-color: rgb(36,37,37);
+    margin-top: -40px;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 95.5%;
     color:white;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     text-decoration: none;
     font-size: 20px;
-
+    position: absolute;
 }
 
 .page_title {
@@ -111,7 +130,11 @@ a:hover {
     padding: 10px;
     text-align: center;
     display: flex;
-    transform: scale(0.5, 1);
+    transform: scale(1, 1);
+    margin-right: 30%;
+    margin-left: 30%;
+    margin-bottom: 3%;
+    margin-top: -2%;
 }
 #warning_sign {
     overflow: scroll;
@@ -128,7 +151,7 @@ a:hover {
     text-align: center;
 }
 .video {
-    margin-left: 5%;
+    margin-left: 16%;
     margin-bottom: 10%;
 }
 .videotext {
