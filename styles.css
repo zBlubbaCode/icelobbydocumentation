@@ -110,6 +110,9 @@ button:hover {
     font-size: 30px;
     text-decoration: underline;
 }
+.main-image {
+    max-width: 190px;
+}
 .margin_left {
     margin-left: 5%;
 }
