@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
 
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -215,4 +216,49 @@ a:hover {
     font-size: 350%;
     font-weight: 700;
     font-family: 'Orbitron';
+}
+
+.footer {
+    margin-top: 144.75%;
+    background-color: rgb(16,16,16);
+    font-size: 16px;
+    color:aliceblue;
+    font-family: "Montserrat", sans-serif;
+}
+.footer-headline-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-text {
+    padding: 7%;
+}
+.connection-headline {
+    color: rgb(68,68,68);
+}
+.blubbas-headline {
+    color: rgb(68,68,68);
+    margin-left: 0.5%;
+}
+.company-headline {
+    color: rgb(68,68,68);
+}
+.rechtliches-headline {
+    color: rgb(68,68,68);
+}
+.footer-link {
+    font-size: 16px;
+    margin-top: 100000px;
+}
+.copyright-container {
+    display: flex;
+}
+.copyright-icon {
+    height: 3em;
+    margin-top: 2%;
+    margin-right: 1%;
+}
+.socialmedia {
+    color: white;
+    margin-left: 2%;
 }
